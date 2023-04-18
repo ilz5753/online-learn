@@ -4,13 +4,8 @@
     "slug": "online-learn",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
+    "icon": "./assets/icon.jpg",
+    "userInterfaceStyle": "automatic",
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -19,12 +14,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/adaptive-icon.jpg",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.maa7835.onlinelearn"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.jpg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "52e01c2e-dcc9-4195-9c50-90ecfe7c4d13"
+      }
     }
   }
 }
