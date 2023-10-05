@@ -24,7 +24,7 @@
     "expo-screen-orientation": "~5.1.1",
     "expo-splash-screen": "~0.20.2",
     "expo-system-ui": "~2.2.1",
-    "expo-updates": "~0.17.1",
+    "expo-updates": "~0.20.0",
     "i18n-js": "^4.2.3",
     "lodash": "^4.17.21",
     "react-native-gesture-handler": "~2.9.0",
